@@ -17,7 +17,6 @@ function Navbar({ setIsLoggedIn }) {
     setIsLoggedIn(false);
     history.push("/login");
   }
-
   return (
     <div>
       <NavLink
